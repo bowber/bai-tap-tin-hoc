@@ -4,6 +4,7 @@ var i, j, n: longint;
     a: array[1..1000000] of edge;
     f: text;
     all: array[0..1000000] of byte;
+    
 function existed(e: edge): boolean;
 begin
 if (all[e[1]] = 1) or (all[e[2]] = 1) then
@@ -27,6 +28,7 @@ begin
 
 fillchar(all, sizeof(all), 0);
 n := 0;
+
 assign(f, 'lamquen.inp'); reset(f);
 while not eof(f) do
 begin
