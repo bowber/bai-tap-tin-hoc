@@ -1,9 +1,5 @@
-Program HelloWorld(output);
-
-var a: array[1..10000] of integer;
-    
+var a: array[1..10000] of integer;  
     n, q: integer;
-
 
 procedure nhap_mang();
 var i: integer;
